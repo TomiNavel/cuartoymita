@@ -23,8 +23,8 @@ Official website for Cuarto y Mitá, a coffee shop and store in the heart of Ovi
 
 ### Architecture & Performance
 - App Router with **fully static generation (SSG)** on every route — CDN-servable with no SSR runtime
-- **Server Components by default**, Client Components only where interaction requires (`Header`, `MenuTabs`, `CookiesBanner`)
-- **Strict TypeScript** end-to-end with typed data sources (`MenuCategory`, `Testimonial`)
+- **Server Components by default**, Client Components only where interaction requires (`Header`, `MenuTabs`, cookie banner and its footer button)
+- **Strict TypeScript** end-to-end with typed data sources in `src/data/` (e.g. `MenuCategory`, `Testimonial`)
 - **Tailwind CSS v4** with design tokens declared via `@theme` (no `tailwind.config.ts`)
 - **Turbopack** as bundler
 - Path aliases (`@/*`) for clean imports
@@ -60,9 +60,4 @@ Official website for Cuarto y Mitá, a coffee shop and store in the heart of Ovi
 
 ## License
 
-[MIT](./LICENSE)
-
-
-## Contributions
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+Source code is licensed under [MIT](./LICENSE). The Cuarto y Mitá name, logo, images in `public/` and site copy are not covered by this license and remain the property of their owners.
